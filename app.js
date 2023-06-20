@@ -18,3 +18,5 @@ const displayQuestion = () => {
     showProgress();
   }
 };
+
+const guess = (id, guess) => {};
