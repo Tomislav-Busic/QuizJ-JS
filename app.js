@@ -29,4 +29,9 @@ const guess = (id, guess) => {
   };
 };
 
-const showProgress = () => {};
+const showProgress = () => {
+  let currentQuestionNumber = quiz.questionIndex + 1;
+  let progressElement = document.getElementById("progress");
+
+  progressElement.innerHTML = `Question ${currentQuestionNumber} of ${quiz.questions.length}`;
+};
