@@ -1,7 +1,7 @@
 class Quiz {
-  constructor(questions) {
+  constructor(_questions) {
     this.score = 0;
-    this.questions = questions;
+    this.questions = _questions;
     this.questionIndex = 0;
   }
 
