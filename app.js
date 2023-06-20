@@ -36,4 +36,15 @@ const showProgress = () => {
   progressElement.innerHTML = `Question ${currentQuestionNumber} of ${quiz.questions.length}`;
 };
 
-const showScores = () => {};
+const showScores = () => {
+  let quizEndHTML = `
+        <h1>Quiz completed</h1>
+        <h2 id="score">You Scored: ${quiz.score} of ${quiz.questions.length}</h2>
+        <div class="quiz-repeat">
+            <a href="index.html">Take Quiz Again</a>
+        </div> 
+    `;
+
+  let quizElement = document.getElementById("quiz");
+  quizElement.innerHTML = quizEndHTML;
+};
