@@ -14,5 +14,7 @@ const displayQuestion = () => {
       choiceElement.innerHTML = choices[i];
       guess("btn", choices[i]);
     }
+
+    showProgress();
   }
 };
