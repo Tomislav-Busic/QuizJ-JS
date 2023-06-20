@@ -4,7 +4,7 @@
   --white: #fff;
   --black: #1c2b2d;
   --blue: #31326f;
-  --color-primary: crimson;
+  --color-primary: #161719;
   --color-sec: #db6400;
   --color-grey: #eee;
   --color-dark-grey: #222831;
@@ -69,7 +69,7 @@ img {
 
 .quiz-box h1 {
   background-color: var(--color-primary);
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
   color: #fff;
   padding: 10px 0;
@@ -120,7 +120,7 @@ img {
   font-size: 1.8rem;
   color: var(--black);
   border: 1px solid var(--color-primary);
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 7px 0;
   padding: 1rem;
   outline: none;
