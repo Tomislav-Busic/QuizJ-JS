@@ -35,3 +35,5 @@ const showProgress = () => {
 
   progressElement.innerHTML = `Question ${currentQuestionNumber} of ${quiz.questions.length}`;
 };
+
+const showScores = () => {};
