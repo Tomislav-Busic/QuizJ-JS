@@ -15,4 +15,8 @@ class Quiz {
     }
     this.questionIndex++;
   }
+
+  isEnded() {
+    return this.getQuestionIndex === this.questions.length;
+  }
 }
