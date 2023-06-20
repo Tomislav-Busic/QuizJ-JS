@@ -8,4 +8,11 @@ class Quiz {
   getQuestionIndex() {
     return this.questions[this.questionIndex];
   }
+
+  guess(answer) {
+    if (this.getQuestionIndex().isCorrectAnswer(answer)) {
+      this.score++;
+    }
+    this.questionIndex++;
+  }
 }
