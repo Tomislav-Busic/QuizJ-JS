@@ -19,4 +19,10 @@ const displayQuestion = () => {
   }
 };
 
-const guess = (id, guess) => {};
+const guess = (id, guess) => {
+  let button = document.getElementById(id);
+  button.onclick = () => {
+    Quiz.guess(guess);
+    displayQuestion();
+  };
+};
