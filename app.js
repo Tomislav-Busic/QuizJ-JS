@@ -9,5 +9,10 @@ const displayQuestion = () => {
 
     // show options
     let choices = Quiz.getQuestionIndex().choices;
+    for (let i = 0; i < choices.length; i++) {
+      let choiceElement = socument.getElementById("choice" + i);
+      choiceElement.innerHTML = choices[i];
+      guess("btn", choices[i]);
+    }
   }
 };
