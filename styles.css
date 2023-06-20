@@ -4,11 +4,21 @@
   --white: #fff;
   --black: #1c2b2d;
   --blue: #31326f;
-  --light-blue: #2a79b0;
-  --color-primary: #c224b5;
+  --color-primary: crimson;
   --color-sec: #db6400;
   --color-grey: #eee;
   --color-dark-grey: #222831;
+  --background1: #70e1f5; /* fallback for old browsers */
+  --background2: -webkit-linear-gradient(
+    to right,
+    #ffd194,
+    #70e1f5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  --background3: linear-gradient(
+    to right,
+    #ffd194,
+    #70e1f5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 * {
@@ -23,7 +33,9 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: var(--light-blue);
+  background: var(--background1);
+  background: var(--background2);
+  background: var(--background3);
 }
 
 p {
@@ -50,9 +62,9 @@ img {
   /* height: 500px; */
   margin: 0 auto;
   background-color: #eee;
-  padding: 10px 50px 50px 50px;
+  padding: 5% 10%;
   border: 3px solid var(--color-primary);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .quiz-box h1 {
@@ -63,7 +75,7 @@ img {
   padding: 10px 0;
   width: 100%;
   margin-bottom: 2rem;
-  border-radius: 3px;
+  border-radius: 20px;
 }
 
 .quiz-header {
