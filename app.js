@@ -26,3 +26,5 @@ const guess = (id, guess) => {
     displayQuestion();
   };
 };
+
+const showProgress = () => {};
