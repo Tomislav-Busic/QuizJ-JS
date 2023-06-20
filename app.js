@@ -1,14 +1,16 @@
 // DISPLAY QUESTION
+let quiz = new Quiz();
+
 const displayQuestion = () => {
-  if (Quiz.isEnded()) {
+  if (quiz.isEnded()) {
     showScores();
   } else {
     // show question
     let questionElement = document.getElementById("question");
-    questionElement.innerHTML = Quiz.getQuestionIndex().text;
+    questionElement.innerHTML = quiz.getQuestionIndex().text;
 
     // show options
-    let choices = Quiz.getQuestionIndex().choices;
+    let choices = quiz.getQuestionIndex().choices;
     for (let i = 0; i < choices.length; i++) {
       let choiceElement = socument.getElementById("choice" + i);
       choiceElement.innerHTML = choices[i];
@@ -22,7 +24,7 @@ const displayQuestion = () => {
 const guess = (id, guess) => {
   let button = document.getElementById(id);
   button.onclick = () => {
-    Quiz.guess(guess);
+    quiz.guess(guess);
     displayQuestion();
   };
 };
