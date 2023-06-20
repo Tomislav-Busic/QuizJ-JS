@@ -4,4 +4,8 @@ class Question {
     this.choices = _choices;
     this.answer = _answer;
   }
+
+  isCorrectAnswer(choice) {
+    return this.answer === choice;
+  }
 }
