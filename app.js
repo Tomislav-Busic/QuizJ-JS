@@ -1,5 +1,4 @@
 // DISPLAY QUESTION
-let quiz = new Quiz();
 
 const displayQuestion = () => {
   if (quiz.isEnded()) {
@@ -78,6 +77,6 @@ let questions = [
   ),
 ];
 
-quiz(questions);
+let quiz = new Quiz(questions);
 
 displayQuestion();
