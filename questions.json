@@ -6,7 +6,7 @@
       "answer": "HTML"
     },
     {
-      "question": "Cascading Style sheet Stands For??",
+      "question": "Cascading Style sheet Stands For?",
       "choices": ["HTML", "JQuery", "CSS", "XML"],
       "answer": "CSS"
     },
@@ -16,7 +16,7 @@
       "answer": "React"
     },
     {
-      "question": "Which is a backend Language??",
+      "question": "Which is a backend Language?",
       "choices": ["PHP", "HTML", "React", "All"],
       "answer": "PHP"
     },
