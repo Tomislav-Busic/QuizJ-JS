@@ -61,3 +61,7 @@ const questions = () => {
 let quiz = new Quiz(questions());
 
 displayQuestion();
+
+// ADD COUNTDOWN
+let time = 10;
+let quizTimeInMinutes = time * 60 * 60;
