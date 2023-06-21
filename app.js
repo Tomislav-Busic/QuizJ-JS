@@ -1,4 +1,5 @@
 // DISPLAY QUESTION
+import questionsData from "./questions.json" assert { type: "json" };
 
 const displayQuestion = () => {
   if (quiz.isEnded()) {
@@ -49,7 +50,20 @@ const showScores = () => {
 };
 
 // CREATE QIUZ QUESTIONS
-let questions = [
+const questions = () => {
+  let questions = questionsData.questions;
+  let questionNumber = [];
+  for (let i = 0; i < questions.length; i++) {
+    let question = new Question(
+      questions.question[i],
+      questions.choices[i],
+      questions.answer[i]
+    );
+    questionNumber.push(question);
+  }
+  return questionNumber;
+};
+/* let questions = [
   new Question(
     "Hyper Text Markup Language Stands For?",
     ["JQuery", "XHTML", "CSS", "HTML"],
@@ -75,7 +89,7 @@ let questions = [
     ["React", "Laravel", "Python", "Sass"],
     "Python"
   ),
-];
+]; */
 
 let quiz = new Quiz(questions);
 
