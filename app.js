@@ -51,18 +51,15 @@ const showScores = () => {
 
 // CREATE QIUZ QUESTIONS
 const questions = () => {
-  let questions = questionsData.questions;
-  let questionNumber = [];
-  for (let i = 0; i < questions.length; i++) {
-    let question = new Question(
-      questions.question[i],
-      questions.choices[i],
-      questions.answer[i]
-    );
-    questionNumber.push(question);
-  }
-  return questionNumber;
+  let questions = questionsData.questions.map(
+    (question) =>
+      new Question(question.question, question.choices, question.answer)
+  );
+
+  return questions;
 };
+
+questions();
 /* let questions = [
   new Question(
     "Hyper Text Markup Language Stands For?",
