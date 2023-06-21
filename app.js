@@ -72,6 +72,7 @@ let counting = document.getElementById("count-down");
 const startCountDown = () => {
   let quizTimer = setInterval(() => {
     if (quizTime <= 0) {
+      clearInterval(quizTimer);
       showScores();
     } else {
       quizTime--;
