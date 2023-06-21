@@ -81,3 +81,5 @@ const startCountDown = () => {
     }
   }, 1000);
 };
+
+startCountDown();
