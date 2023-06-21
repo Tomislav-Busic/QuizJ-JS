@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {
+      "question": "Hyper Text Markup Language Stands For?",
+      "choices": ["JQuery", "XHTML", "CSS", "HTML"],
+      "answer": "HTML"
+    },
+    {
+      "question": "Cascading Style sheet Stands For??",
+      "choices": ["HTML", "JQuery", "CSS", "XML"],
+      "answer": "CSS"
+    },
+    {
+      "question": "Which is a JavaScript Framework?",
+      "choices": ["React", "Laravel", "Django", "Sass"],
+      "answer": "React"
+    },
+    {
+      "question": "Which is a backend Language??",
+      "choices": ["PHP", "HTML", "React", "All"],
+      "answer": "PHP"
+    },
+    {
+      "question": "Which is best for Artificial intelligence?",
+      "choices": ["React", "Laravel", "Python", "Sass"],
+      "answer": "Python"
+    }
+  ]
+}
