@@ -12,7 +12,7 @@ const displayQuestion = () => {
     // show options
     let choices = quiz.getQuestionIndex().choices;
     for (let i = 0; i < choices.length; i++) {
-      let choiceElement = socument.getElementById("choice" + i);
+      let choiceElement = document.getElementById("choice" + i);
       choiceElement.innerHTML = choices[i];
       guess("btn", choices[i]);
     }
