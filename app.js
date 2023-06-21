@@ -77,6 +77,7 @@ const startCountDown = () => {
       quizTimer--;
       let sec = Math.floor(quizTime % 60);
       let min = Math.floor(quizTime / 60) % 60;
+      counting.innerHTML = `TIME: ${min} : ${sec}`;
     }
   });
 };
