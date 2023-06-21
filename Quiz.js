@@ -20,3 +20,32 @@ class Quiz {
     return this.getQuestionIndex === this.questions.length;
   }
 }
+
+// CREATE QIUZ QUESTIONS
+let questions = [
+  new Question(
+    "Hyper Text Markup Language Stands For?",
+    ["JQuery", "XHTML", "CSS", "HTML"],
+    "HTML"
+  ),
+  new Question(
+    "Hyper Text Markup Language Stands For?",
+    ["JQuery", "XHTML", "CSS", "HTML"],
+    "HTML"
+  ),
+  new Question(
+    "Hyper Text Markup Language Stands For?",
+    ["JQuery", "XHTML", "CSS", "HTML"],
+    "HTML"
+  ),
+  new Question(
+    "Hyper Text Markup Language Stands For?",
+    ["JQuery", "XHTML", "CSS", "HTML"],
+    "HTML"
+  ),
+  new Question(
+    "Hyper Text Markup Language Stands For?",
+    ["JQuery", "XHTML", "CSS", "HTML"],
+    "HTML"
+  ),
+];
