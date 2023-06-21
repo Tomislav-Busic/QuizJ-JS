@@ -65,7 +65,7 @@ displayQuestion();
 // ADD COUNTDOWN
 let time = 10;
 let quizTimeInMinutes = time * 60 * 60;
-quizTime = quizTimeInMinutes / 60;
+let quizTime = quizTimeInMinutes / 60;
 
 let counting = document.getElementById("count-down");
 
@@ -73,6 +73,10 @@ const startCountDown = () => {
   let quizTimer = setInterval(() => {
     if (quizTimer <= 0) {
       showScores();
+    } else {
+      quizTimer--;
+      let sec = Math.floor(quizTime % 60);
+      let min = Math.floor(quizTime / 60) % 60;
     }
   });
 };
