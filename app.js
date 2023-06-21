@@ -13,7 +13,7 @@ const displayQuestion = () => {
     for (let i = 0; i < choices.length; i++) {
       let choiceElement = document.getElementById("choice" + i);
       choiceElement.innerHTML = choices[i];
-      guess("btn", choices[i]);
+      guess("btn" + i, choices[i]);
     }
 
     showProgress();
