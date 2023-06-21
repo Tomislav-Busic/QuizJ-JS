@@ -68,3 +68,7 @@ let quizTimeInMinutes = time * 60 * 60;
 quizTime = quizTimeInMinutes / 60;
 
 let counting = document.getElementById("count-down");
+
+const startCountDown = () => {
+  let quizTimer = setInterval(() => {});
+};
