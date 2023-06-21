@@ -49,3 +49,5 @@ let questions = [
     "Python"
   ),
 ];
+
+quiz(questions);
