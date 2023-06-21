@@ -79,3 +79,5 @@ let questions = [
 ];
 
 quiz(questions);
+
+displayQuestion();
