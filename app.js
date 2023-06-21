@@ -1,41 +1,6 @@
 // DISPLAY QUESTION
 import questionsData from "./questions.json" assert { type: "json" };
 
-class Quiz {
-  constructor(_questions) {
-    this.score = 0;
-    this.questions = _questions;
-    this.questionIndex = 0;
-  }
-
-  getQuestionIndex() {
-    return this.questions[this.questionIndex];
-  }
-
-  guess(answer) {
-    if (this.getQuestionIndex().isCorrectAnswer(answer)) {
-      this.score++;
-    }
-    this.questionIndex++;
-  }
-
-  isEnded() {
-    return this.questionIndex === this.questions.length;
-  }
-}
-
-class Question {
-  constructor(_text, _choices, _answer) {
-    this.text = _text;
-    this.choices = _choices;
-    this.answer = _answer;
-  }
-
-  isCorrectAnswer(choice) {
-    return this.answer === choice;
-  }
-}
-
 const displayQuestion = () => {
   if (quiz.isEnded()) {
     showScores();
