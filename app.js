@@ -55,7 +55,6 @@ const questions = () => {
     (question) =>
       new Question(question.question, question.choices, question.answer)
   );
-  console.log(questions);
   return questions;
 };
 
