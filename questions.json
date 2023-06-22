@@ -24,6 +24,746 @@
       "question": "Which is best for Artificial intelligence?",
       "choices": ["React", "Laravel", "Python", "Sass"],
       "answer": "Python"
+    },
+    {
+      "question": "What HTML tag is used to link an external style sheet?",
+      "choices": ["<style>", "<script>", "<link>", "<head>"],
+      "answer": "<link>"
+    },
+    {
+      "question": "What CSS attribute is used to set a background image?",
+      "choices": [
+        "background-image",
+        "background-picture",
+        "background",
+        "bg-image"
+      ],
+      "answer": "background-image"
+    },
+    {
+      "question": "How do you write a JavaScript function?",
+      "choices": [
+        "function:myfunction()",
+        "function-myfunction()",
+        "function myfunction()",
+        "function = myfunction()"
+      ],
+      "answer": "function myfunction()"
+    },
+    {
+      "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+      "choices": [
+        "<script>script.js</script>",
+        "<script href='script.js'>",
+        "<script src='script.js'>",
+        "<script name='script.js'>"
+      ],
+      "answer": "<script src='script.js'>"
+    },
+    {
+      "question": "Which HTML attribute is used to define inline styles?",
+      "choices": ["style", "font", "class", "styles"],
+      "answer": "style"
+    },
+    {
+      "question": "What is the correct syntax for creating a function in JavaScript named 'myFunction'?",
+      "choices": [
+        "myFunction()",
+        "function = myFunction()",
+        "function:myFunction()",
+        "function myFunction()"
+      ],
+      "answer": "function myFunction()"
+    },
+    {
+      "question": "What HTML element is used to specify the navigation links for a web page?",
+      "choices": ["<nav>", "<list>", "<navigate>", "<links>"],
+      "answer": "<nav>"
+    },
+    {
+      "question": "What is the correct syntax for creating an object in JavaScript?",
+      "choices": [
+        "object:myObject",
+        "object = myObject",
+        "object myObject",
+        "object: myObject()"
+      ],
+      "answer": "object myObject"
+    },
+    {
+      "question": "What is the correct syntax for setting the background color of an element in CSS?",
+      "choices": [
+        "background-color:blue;",
+        "background-color=blue;",
+        "background:blue;",
+        "bg-color:blue;"
+      ],
+      "answer": "background-color:blue;"
+    },
+    {
+      "question": "Which HTML attribute is used to add a comment in the source code?",
+      "choices": ["<note>", "<comment>", "<!-- -->", "<div>"],
+      "answer": "<!-- -->"
+    },
+    {
+      "question": "How do you define a JavaScript variable?",
+      "choices": ["variable x", "x variable", "var x", "let x"],
+      "answer": "var x"
+    },
+    {
+      "question": "What HTML element is used to embed an external audio file?",
+      "choices": ["<play>", "<audio>", "<media>", "<sound>"],
+      "answer": "<audio>"
+    },
+    {
+      "question": "How do you write an if statement in JavaScript?",
+      "choices": ["if i = 5 then", "if (i=5)", "if i==5 then", "if (i==5)"],
+      "answer": "if (i==5)"
+    },
+    {
+      "question": "Which HTML attribute is used to define the type of an input element?",
+      "choices": ["type", "class", "name", "placeholder"],
+      "answer": "type"
+    },
+    {
+      "question": "What is the purpose of CSS?",
+      "choices": [
+        "To add color and style to websites",
+        "To create new elements",
+        "To control the layout of multiple web pages",
+        "To create dynamic animations"
+      ],
+      "answer": "To control the layout of multiple web pages"
+    },
+    {
+      "question": "Which CSS property defines the main size of an element?",
+      "choices": ["width", "font-size", "color", "background-color"],
+      "answer": "width"
+    },
+    {
+      "question": "What does the 'z-index' CSS property do?",
+      "choices": [
+        "Change the color of an element",
+        "Order elements in the z-axis",
+        "Increase the size of an element",
+        "Hide an element"
+      ],
+      "answer": "Order elements in the z-axis"
+    },
+    {
+      "question": "What are the three layers of the box model?",
+      "choices": [
+        "Position, Content, and Margin",
+        "Margin, Padding, and Border",
+        "Content, Height, and Width",
+        "Padding, Content, and Border"
+      ],
+      "answer": "Content, Padding, and Border"
+    },
+    {
+      "question": "What does HTML stand for?",
+      "choices": [
+        "Hyper Text Manipulation Language",
+        "Hyper Text Markup Language",
+        "Help Total Manipulation Language",
+        "Hardly Text Making Language"
+      ],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "What is the syntax for creating a div?",
+      "choices": ["#name", "@name", "$name", "div name"],
+      "answer": "div name"
+    },
+    {
+      "question": "What is the primary use of CSS?",
+      "choices": [
+        "Factory maintenance",
+        "Database maintenance",
+        "Web page styling",
+        "Image editing"
+      ],
+      "answer": "Web page styling"
+    },
+    {
+      "question": "What is the syntax for creating a class in CSS?",
+      "choices": [".name", "@name", "$name", "div name"],
+      "answer": ".name"
+    },
+    {
+      "question": "What is the syntax for creating a comment in JavaScript?",
+      "choices": ["//", "/*", ":", "=="],
+      "answer": "//"
+    },
+    {
+      "question": "What is the main purpose of JavaScript?",
+      "choices": [
+        "Server-side processing",
+        "Desktop application development",
+        "Image editing",
+        "Client-side scripting"
+      ],
+      "answer": "Client-side scripting"
+    },
+    {
+      "question": "What selector is used to select an element with id 'myDiv'?",
+      "choices": ["#myDiv", "@myDiv", "!myDiv", "=myDiv"],
+      "answer": "#myDiv"
+    },
+    {
+      "question": "What is the correct way to write a JavaScript array?",
+      "choices": [
+        "array 1 = 'red','green','blue'",
+        "array1 = [red,green,blue]",
+        "array 1 = (red,green,blue)",
+        "array1 [red,green,blue]"
+      ],
+      "answer": "array1 = [red,green,blue]"
+    },
+    {
+      "question": "What is the correct way to write a JavaScript loop syntax?",
+      "choices": [
+        "for (var i = 0; i<n; i+)",
+        "for (i=0;i<n; i++)",
+        "for i=0;i<n;i++",
+        "for i=0;i<n; i+)"
+      ],
+      "answer": "for (var i = 0; i<n; i++)"
+    },
+    {
+      "question": "Which statement is correct?",
+      "choices": [
+        "JavaScript is a strong language.",
+        "JavaScript is a weak language.",
+        "JavaScript is a scripting language.",
+        "JavaScript is a programming language."
+      ],
+      "answer": "JavaScript is a scripting language."
+    },
+    {
+      "question": "What is the name of the type of programming that Javascript is?",
+      "choices": [
+        "Object-oriented programming",
+        "Functional programming",
+        "Event-driven programming",
+        "Structured programming"
+      ],
+      "answer": "Event-driven programming"
+    },
+    {
+      "question": "What term describes changing the value of a variable within a function?",
+      "choices": ["Mutate", "Reassign", "Assign", "Modify"],
+      "answer": "Reassign"
+    },
+    {
+      "question": "What is the keyword used to define a JavaScript function?",
+      "choices": ["Comma", "Var", "Function", "Let"],
+      "answer": "Function"
+    },
+    {
+      "question": "What should be the first statement in a JavaScript program?",
+      "choices": ["Function", "Let", "Console.log", "Document"],
+      "answer": "Document"
+    },
+    {
+      "question": "Which of the following is a valid way to comment in JavaScript?",
+      "choices": [
+        "//This is a comment",
+        "<!--This is a comment-->",
+        "%This is a comment%",
+        "**This is a comment**"
+      ],
+      "answer": "//This is a comment"
+    },
+    {
+      "question": "What is a for loop in JavaScript?",
+      "choices": [
+        "A loop which executes a set of code for a number of times",
+        "A loop which runs a set of code for a certain condition",
+        "A loop which runs a set of code until a certain condition is met",
+        "A loop which checks a set of values against a certain condition"
+      ],
+      "answer": "A loop which executes a set of code for a number of times"
+    },
+    {
+      "question": "Which JavaScript keyword can be used to generate a random number?",
+      "choices": [
+        "Math.ceil()",
+        "Math.random()",
+        "Math.floor()",
+        "Math.round()"
+      ],
+      "answer": "Math.random()"
+    },
+    {
+      "question": "Which of the following is the correct syntax for writing an if statement?",
+      "choices": [
+        "if condition { executeTheCode }",
+        "if (condition) { executeTheCode }",
+        "if { condition executeTheCode }",
+        "if condition executeTheCode"
+      ],
+      "answer": "if (condition) { executeTheCode }"
+    },
+    {
+      "question": "What keyword can be used to iterate over the contents of an array?",
+      "choices": ["for", "forEach", "while", "map"],
+      "answer": "forEach"
+    },
+    {
+      "question": "Which of the following is the correct syntax for writing a switch statement?",
+      "choices": [
+        "switch { case condition: executeTheCode; break; }",
+        "switch (case condition) { executeTheCode; break; }",
+        "switch (condition) { case executeTheCode; break; }",
+        "switch { condition: executeTheCode; break; }"
+      ],
+      "answer": "switch (condition) { case executeTheCode; break; }"
+    },
+    {
+      "question": "What is ReactJS?",
+      "choices": [
+        "A Java application",
+        "A JavaScript library",
+        "An open source web framework",
+        "A graphical programming language"
+      ],
+      "answer": "A JavaScript library"
+    },
+    {
+      "question": "What is JSX?",
+      "choices": [
+        "A type of function",
+        "A type of data structure",
+        "A type of language",
+        "A type of syntax"
+      ],
+      "answer": "A type of syntax"
+    },
+    {
+      "question": "Which of the following is true about ReactJS?",
+      "choices": [
+        "ReactJS is case sensitive",
+        "ReactJS is not case sensitive",
+        "ReactJS is a compiled language",
+        "ReactJS is an interpreted language"
+      ],
+      "answer": "ReactJS is not case sensitive"
+    },
+    {
+      "question": "What does the ReactDOM do?",
+      "choices": [
+        "Updates the DOM with new user inputs",
+        "Manages the DOM and keeps it in sync with the underlying data",
+        "Re-renders the DOM to reflect any changes in the underlying data",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which of the following is NOT a React component lifecycle method?",
+      "choices": [
+        "getInitialData()",
+        "componentWillUpdate()",
+        "componentWillMount()",
+        "shouldComponentUpdate()"
+      ],
+      "answer": "getInitialData()"
+    },
+    {
+      "question": "What is the purpose of the render() method in React?",
+      "choices": [
+        "Renders the DOM with updates",
+        "Renders the data into an HTML form",
+        "Renders the content of a component",
+        "Renders the component as an HTML element"
+      ],
+      "answer": "Renders the content of a component"
+    },
+    {
+      "question": "How do you set state in React?",
+      "choices": [
+        "Using the setState() method",
+        "Using the render() method",
+        "Using the componentWillMount() method",
+        "Using the getInitialState() method"
+      ],
+      "answer": "Using the setState() method"
+    },
+    {
+      "question": "What is the purpose of the `key` attribute in React components?",
+      "choices": [
+        "To uniquely identify components",
+        "To store user data",
+        "To protect components from re-rendering unnecessarily",
+        "To keep track of component states"
+      ],
+      "answer": "To uniquely identify components"
+    },
+    {
+      "question": "What is the purpose of the props in React components?",
+      "choices": [
+        "To store user data",
+        "To share information between components",
+        "To manage the component’s state",
+        "To keep track of different component types"
+      ],
+      "answer": "To share information between components"
+    },
+    {
+      "question": "What is the correct way to pass an array as a prop in React?",
+      "choices": [
+        "using the array.push() method",
+        "using the array.getMenu() method",
+        "using the array.map() method",
+        "using the array.pop() method"
+      ],
+      "answer": "using the array.map() method"
+    },
+    {
+      "question": "What is the purpose of the Flux architecture in React?",
+      "choices": [
+        "To simplify the state management of components",
+        "To optimize components for faster rendering",
+        "To enforce unidirectional data flow between components",
+        "To ensure components communicate properly"
+      ],
+      "answer": "To enforce unidirectional data flow between components"
+    },
+    {
+      "question": "What does the componentDidMount() method do in React?",
+      "choices": [
+        "It sends data to the server",
+        "It initializes the component after it is mounted",
+        "It initializes the component before it is mounted",
+        "It triggers an update to the component when it is mounted"
+      ],
+      "answer": "It initializes the component after it is mounted"
+    },
+    {
+      "question": "What is the difference between a PureComponent and a Component in React?",
+      "choices": [
+        "PureComponents have immutable data and Components have mutable data",
+        "Components are faster than PureComponents",
+        "PureComponents check for shallow changes in props and state",
+        "Components check for deep changes in props and state"
+      ],
+      "answer": "PureComponents check for shallow changes in props and state"
+    },
+    {
+      "question": "What is the purpose of the 'higher order component' concept in React?",
+      "choices": [
+        "It allows components to be used in multiple contexts",
+        "It allows components to be reused across applications",
+        "It allows components to be nested within other components",
+        "It allows components to communicate with each other"
+      ],
+      "answer": "It allows components to be reused across applications"
+    },
+    {
+      "question": "What is a ref in React?",
+      "choices": [
+        "A callback that is triggered when a component is mounted/unmounted",
+        "A callback that is triggered when a component's state changes",
+        "A reference to a particular element/component in the DOM",
+        "A flag that indicates whether a component has been mounted or unmounted"
+      ],
+      "answer": "A reference to a particular element/component in the DOM"
+    },
+    {
+      "question": "Which reduces the size of a web page for download?",
+      "choices": ["Compression", "Deployment", "Encryption", "Compiling"],
+      "answer": "Compression"
+    },
+    {
+      "question": "What is a syntax?",
+      "choices": [
+        "A set of rules for writing a program",
+        "A type of computer language",
+        "A programming tool",
+        "A type of error"
+      ],
+      "answer": "A set of rules for writing a program"
+    },
+    {
+      "question": "What does debugging involve?",
+      "choices": [
+        "Fixing syntax errors",
+        "Writing code",
+        "Testing the program",
+        "Looking for bugs"
+      ],
+      "answer": "Looking for bugs"
+    },
+    {
+      "question": "What is a programming language?",
+      "choices": [
+        "A set of instructions for computers",
+        "A tool used for debugging",
+        "A type of graphic design software",
+        "A type of computer virus"
+      ],
+      "answer": "A set of instructions for computers"
+    },
+    {
+      "question": "What is the difference between a compiler and an interpreter?",
+      "choices": [
+        "A compiler translates code into a machine language while an interpreter runs code at the same time it is translated",
+        "A compiler translates code into a machine language while an interpreter stops code from running",
+        "A compiler runs code at the same time it is translated while an interpreter translates code into a machine language",
+        "A compiler stops code from running while an interpreter translates code into a machine language"
+      ],
+      "answer": "A compiler translates code into a machine language while an interpreter runs code at the same time it is translated"
+    },
+    {
+      "question": "What are comments?",
+      "choices": [
+        "Text that explains or documents the code",
+        "Symbols that help the computer understand the code",
+        "Syntax that oversee the structure of the code",
+        "Symbols that help the programmer understand the code"
+      ],
+      "answer": "Text that explains or documents the code"
+    },
+    {
+      "question": "What kind of software is used for programming?",
+      "choices": [
+        "IDEs",
+        "Text Editors",
+        "Web Browsers",
+        "Data Visualization Tools"
+      ],
+      "answer": "IDEs"
+    },
+    {
+      "question": "What is a program?",
+      "choices": [
+        "A set of instructions for a computer to follow",
+        "A type of computer language",
+        "A piece of hardware",
+        "A piece of software"
+      ],
+      "answer": "A set of instructions for a computer to follow"
+    },
+    {
+      "question": "What are strings?",
+      "choices": [
+        "A set of characters, usually enclosed in quotes",
+        "A type of variable",
+        "A type of loop",
+        "A type of data structure"
+      ],
+      "answer": "A set of characters, usually enclosed in quotes"
+    },
+    {
+      "question": "What are data types?",
+      "choices": [
+        "A set of predefined values that a programming language can work with",
+        "A set of rules for writing a program",
+        "A type of computer language",
+        "A type of error"
+      ],
+      "answer": "A set of predefined values that a programming language can work with"
+    },
+    {
+      "question": "What is a variable?",
+      "choices": [
+        "A name that can refer to a value or a data type",
+        "A type of computer language",
+        "A tool used to debug a program",
+        "A type of error"
+      ],
+      "answer": "A name that can refer to a value or a data type"
+    },
+    {
+      "question": "What is a loop?",
+      "choices": [
+        "A sequence of instructions that are repeated until a certain condition is met",
+        "A type of variable",
+        "A type of data structure",
+        "A programming tool"
+      ],
+      "answer": "A sequence of instructions that are repeated until a certain condition is met"
+    },
+    {
+      "question": "What is a parameter?",
+      "choices": [
+        "A value that is passed to a function when it is called",
+        "A piece of hardware",
+        "A type of computer language",
+        "A programming tool"
+      ],
+      "answer": "A value that is passed to a function when it is called"
+    },
+    {
+      "question": "What is an array?",
+      "choices": [
+        "A list of related values stored in a single data structure",
+        "A type of variable",
+        "A type of data type",
+        "A programming tool"
+      ],
+      "answer": "A list of related values stored in a single data structure"
+    },
+    {
+      "question": "What is an object?",
+      "choices": [
+        "A data type that stores related data and instructions together",
+        "A type of variable",
+        "A type of data structure",
+        "A programming tool"
+      ],
+      "answer": "A data type that stores related data and instructions together"
+    },
+    {
+      "question": "What are functions?",
+      "choices": [
+        "A list of related instructions stored in a single data structure",
+        "A set of instructions that can be reused in multiple places in a program",
+        "A type of variable",
+        "A type of data type"
+      ],
+      "answer": "A set of instructions that can be reused in multiple places in a program"
+    },
+    {
+      "question": "What is the difference between an algorithm and a data structure?",
+      "choices": [
+        "An algorithm is a set of instructions that must be followed to complete a task while a data structure is a way of organizing data",
+        "An algorithm is a set of instructions that must be followed to complete a task while a data structure is a set of instructions that can be reused in multiple places in a program",
+        "An algorithm is a way of organizing data while a data structure is a set of instructions that must be followed to complete a task",
+        "An algorithm is a set of instructions that can be reused in multiple places in a program while a data structure is a way of organizing data"
+      ],
+      "answer": "An algorithm is a set of instructions that must be followed to complete a task while a data structure is a way of organizing data"
+    },
+    {
+      "question": "What are libraries?",
+      "choices": [
+        "A collection of code written by someone else that can be used in your own code",
+        "A collection of code written by you that can be used in someone else's code",
+        "A collection of code written in a specific language that can be used in any language",
+        "A type of data type"
+      ],
+      "answer": "A collection of code written by someone else that can be used in your own code"
+    },
+    {
+      "question": "What is the difference between a programming language and a scripting language?",
+      "choices": [
+        "A programming language is compiled while a scripting language is interpreted",
+        "A programming language is interpreted while a scripting language is compiled",
+        "A programming language is written in text while a scripting language is written in binary",
+        "A programming language is written in binary while a scripting language is written in text"
+      ],
+      "answer": "A programming language is compiled while a scripting language is interpreted"
+    },
+    {
+      "question": "What is a compiler?",
+      "choices": [
+        "A tool used to translate code written in one language into code written in another language",
+        "A programming tool",
+        "A type of computer language",
+        "A set of rules for writing a program"
+      ],
+      "answer": "A tool used to translate code written in one language into code written in another language"
+    },
+    {
+      "question": "What is an operating system?",
+      "choices": [
+        "A software program that manages the computer's hardware and software resources",
+        "A type of computer language",
+        "A programming tool",
+        "A type of error"
+      ],
+      "answer": "A software program that manages the computer's hardware and software resources"
+    },
+    {
+      "question": "What is the difference between a source code and an object code?",
+      "choices": [
+        "A source code is the code that a programmer writes while an object code is the code that is generated from the source code after compilation",
+        "A source code is the code that is generated from the source code after compilation while an object code is the code that a programmer writes",
+        "A source code is a type of data type while an object code is a type of variable",
+        "A source code is a type of variable while an object code is a type of data type"
+      ],
+      "answer": "A source code is the code that a programmer writes while an object code is the code that is generated from the source code after compilation"
+    },
+    {
+      "question": "What is a class?",
+      "choices": [
+        "A blueprint for creating objects",
+        "A type of variable",
+        "A type of data structure",
+        "A programming tool"
+      ],
+      "answer": "A blueprint for creating objects"
+    },
+    {
+      "question": "What is a method?",
+      "choices": [
+        "A set of instructions that can be used to perform a specific task",
+        "A type of variable",
+        "A type of data type",
+        "A programming tool"
+      ],
+      "answer": "A set of instructions that can be used to perform a specific task"
+    },
+    {
+      "question": "What are APIs?",
+      "choices": [
+        "A set of routines that allow for communications between different software systems",
+        "A type of programming language",
+        "A type of data type",
+        "A set of rules for writing a program"
+      ],
+      "answer": "A set of routines that allow for communications between different software systems"
+    },
+    {
+      "question": "What is a database?",
+      "choices": [
+        "A collection of data that is organized for efficient retrieval and storage",
+        "A type of computer language",
+        "A type of error",
+        "A programming tool"
+      ],
+      "answer": "A collection of data that is organized for efficient retrieval and storage"
+    },
+    {
+      "question": "What is a version control system?",
+      "choices": [
+        "A system used to manage changes to a project's source code over time",
+        "A programming tool",
+        "A type of computer language",
+        "A type of error"
+      ],
+      "answer": "A system used to manage changes to a project's source code over time"
+    },
+    {
+      "question": "What is the purpose of a debugger?",
+      "choices": [
+        "To identify and fix bugs in a program",
+        "To identify and remove errors in a program",
+        "To identify and fix syntax errors in a program",
+        "To identify and remove syntax errors in a code"
+      ],
+      "answer": "To identify and fix bugs in a program"
+    },
+    {
+      "question": "What is the main difference between a web application and a desktop application?",
+      "choices": [
+        "Web applications run in a web browser while desktop applications run on a computer's operating system",
+        "Web applications run on a computer's operating system while desktop applications run in a web browser",
+        "Web applications require an internet connection while desktop applications do not",
+        "Web applications are written in HTML while desktop applications are written in a programming language"
+      ],
+      "answer": "Web applications run in a web browser while desktop applications run on a computer's operating system"
+    },
+    {
+      "question": "What is longevity in programming?",
+      "choices": [
+        "How long a program can remain functional",
+        "How long a programming language can remain relevant",
+        "How long a computer can remain operational",
+        "How long a programmer can remain in the industry"
+      ],
+      "answer": "How long a program can remain functional"
     }
   ]
 }
