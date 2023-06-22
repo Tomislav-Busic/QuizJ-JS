@@ -26,11 +26,6 @@
       "answer": "Python"
     },
     {
-      "question": "What HTML tag is used to link an external style sheet?",
-      "choices": ["<style>", "<script>", "<link>", "<head>"],
-      "answer": "<link>"
-    },
-    {
       "question": "What CSS attribute is used to set a background image?",
       "choices": [
         "background-image",
@@ -41,54 +36,9 @@
       "answer": "background-image"
     },
     {
-      "question": "How do you write a JavaScript function?",
-      "choices": [
-        "function:myfunction()",
-        "function-myfunction()",
-        "function myfunction()",
-        "function = myfunction()"
-      ],
-      "answer": "function myfunction()"
-    },
-    {
-      "question": "What is the correct syntax for referring to an external script called 'script.js'?",
-      "choices": [
-        "<script>script.js</script>",
-        "<script href='script.js'>",
-        "<script src='script.js'>",
-        "<script name='script.js'>"
-      ],
-      "answer": "<script src='script.js'>"
-    },
-    {
       "question": "Which HTML attribute is used to define inline styles?",
       "choices": ["style", "font", "class", "styles"],
       "answer": "style"
-    },
-    {
-      "question": "What is the correct syntax for creating a function in JavaScript named 'myFunction'?",
-      "choices": [
-        "myFunction()",
-        "function = myFunction()",
-        "function:myFunction()",
-        "function myFunction()"
-      ],
-      "answer": "function myFunction()"
-    },
-    {
-      "question": "What HTML element is used to specify the navigation links for a web page?",
-      "choices": ["<nav>", "<list>", "<navigate>", "<links>"],
-      "answer": "<nav>"
-    },
-    {
-      "question": "What is the correct syntax for creating an object in JavaScript?",
-      "choices": [
-        "object:myObject",
-        "object = myObject",
-        "object myObject",
-        "object: myObject()"
-      ],
-      "answer": "object myObject"
     },
     {
       "question": "What is the correct syntax for setting the background color of an element in CSS?",
@@ -101,19 +51,9 @@
       "answer": "background-color:blue;"
     },
     {
-      "question": "Which HTML attribute is used to add a comment in the source code?",
-      "choices": ["<note>", "<comment>", "<!-- -->", "<div>"],
-      "answer": "<!-- -->"
-    },
-    {
       "question": "How do you define a JavaScript variable?",
       "choices": ["variable x", "x variable", "var x", "let x"],
       "answer": "var x"
-    },
-    {
-      "question": "What HTML element is used to embed an external audio file?",
-      "choices": ["<play>", "<audio>", "<media>", "<sound>"],
-      "answer": "<audio>"
     },
     {
       "question": "How do you write an if statement in JavaScript?",
@@ -269,7 +209,7 @@
       "question": "Which of the following is a valid way to comment in JavaScript?",
       "choices": [
         "//This is a comment",
-        "<!--This is a comment-->",
+        "!--This is a comment--",
         "%This is a comment%",
         "**This is a comment**"
       ],
