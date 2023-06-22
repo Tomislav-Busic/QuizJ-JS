@@ -37,7 +37,7 @@ const showProgress = () => {
   progressElement.innerHTML = `Question ${currentQuestionNumber} of ${quiz.questions.length}`;
 };
 
-const showScores = () => {
+export const showScores = () => {
   let quizEndHTML = `
         <h1>Quiz completed</h1>
         <h2 id="score">You Scored: ${quiz.score} of ${quiz.questions.length}</h2>
@@ -62,46 +62,3 @@ const questions = () => {
 let quiz = new Quiz(questions());
 
 displayQuestion();
-
-// ADD COUNTDOWN
-let time = 10;
-let quizTimeInMinutes = time * 60 * 60;
-let quizTime = quizTimeInMinutes / 60;
-
-let counting = document.getElementById("count-down");
-
-const startCountDown = () => {
-  const timeLeft = (quizTime) => {
-    let sec = Math.floor(quizTime % 60);
-    let min = Math.floor(quizTime / 60) % 60;
-
-    const formatTime = (time) => {
-      return time < 10 ? `0${time}` : time;
-    };
-
-    return (counting.innerHTML = `
-    TIME: ${formatTime(min)} : ${formatTime(sec)}
-    `);
-  };
-
-  let quizTimer = setInterval(() => {
-    if (quizTime <= 0) {
-      clearInterval(quizTimer);
-      showScores();
-    } else if (quizTime <= quizTimeInMinutes / 60 / 4) {
-      quizTime--;
-      timeLeft(quizTime);
-      counting.style.backgroundColor = "red";
-      counting.classList.add("time-warning");
-    } else if (quizTime <= quizTimeInMinutes / 60 / 2) {
-      quizTime--;
-      timeLeft(quizTime);
-      counting.style.backgroundColor = "orangered";
-    } else {
-      quizTime--;
-      timeLeft(quizTime);
-    }
-  }, 1000);
-};
-
-startCountDown();
