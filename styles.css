@@ -259,7 +259,7 @@ img {
   }
 }
 
-.box2 {
+.box4 {
   animation: slide-in4 1500ms;
   animation-timing-function: ease-in-out;
 }
