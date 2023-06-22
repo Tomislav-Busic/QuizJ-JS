@@ -21,7 +21,10 @@ export const animatonChoices = () => {
 export const questionAnimation = (string) => {
   let text = string.split(" ");
 
-  console.log(text);
+  for (let word in text) {
+    for (let i = 0; i < word.length; i++) {
+      word[i].classList.add("letter");
+    }
+  }
+  return string;
 };
-
-questionAnimation();

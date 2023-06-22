@@ -1,5 +1,5 @@
 import questionsData from "./questions.json" assert { type: "json" };
-import { animatonChoices } from "./animations.js";
+import { animatonChoices, questionAnimation } from "./animations.js";
 
 const displayQuestion = () => {
   if (quiz.isEnded()) {
@@ -7,7 +7,7 @@ const displayQuestion = () => {
   } else {
     // show question
     let questionElement = document.getElementById("question");
-    questionElement.innerHTML = quiz.getQuestionIndex().text;
+    questionElement.innerHTML = questionAnimation(quiz.getQuestionIndex().text);
 
     // show options
     let choices = quiz.getQuestionIndex().choices;
