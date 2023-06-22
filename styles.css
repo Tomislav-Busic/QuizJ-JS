@@ -207,7 +207,7 @@ img {
 
 .box1 {
   animation: slide-in1 500ms;
-  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
 }
 
 @keyframes slide-in2 {
@@ -225,7 +225,7 @@ img {
 
 .box2 {
   animation: slide-in2 800ms;
-  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
 }
 
 @keyframes slide-in3 {
@@ -243,7 +243,7 @@ img {
 
 .box3 {
   animation: slide-in3 1200ms;
-  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
 }
 
 @keyframes slide-in4 {
@@ -261,5 +261,5 @@ img {
 
 .box4 {
   animation: slide-in4 1500ms;
-  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
 }
