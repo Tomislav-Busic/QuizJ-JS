@@ -17,3 +17,11 @@ export const animatonChoices = () => {
     button4.classList.remove("box4");
   });
 };
+
+export const questionAnimation = (string) => {
+  let text = string.split(" ");
+
+  console.log(text);
+};
+
+questionAnimation();
