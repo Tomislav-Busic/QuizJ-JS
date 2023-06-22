@@ -70,28 +70,29 @@ let quizTime = quizTimeInMinutes / 60;
 let counting = document.getElementById("count-down");
 
 const startCountDown = () => {
+  const timeLeft = (quizTime) => {
+    let sec = Math.floor(quizTime % 60);
+    let min = Math.floor(quizTime / 60) % 60;
+
+    return (counting.innerHTML = `TIME: ${min} : ${sec}`);
+  };
+
   let quizTimer = setInterval(() => {
     if (quizTime <= 0) {
       clearInterval(quizTimer);
       showScores();
     } else if (quizTime <= quizTimeInMinutes / 60 / 4) {
       quizTime--;
-      let sec = Math.floor(quizTime % 60);
-      let min = Math.floor(quizTime / 60) % 60;
-      counting.innerHTML = `TIME: ${min} : ${sec}`;
+      timeLeft(quizTime);
       counting.style.backgroundColor = "red";
       counting.classList.add("time-warning");
     } else if (quizTime <= quizTimeInMinutes / 60 / 2) {
       quizTime--;
-      let sec = Math.floor(quizTime % 60);
-      let min = Math.floor(quizTime / 60) % 60;
-      counting.innerHTML = `TIME: ${min} : ${sec}`;
+      timeLeft(quizTime);
       counting.style.backgroundColor = "orangered";
     } else {
       quizTime--;
-      let sec = Math.floor(quizTime % 60);
-      let min = Math.floor(quizTime / 60) % 60;
-      counting.innerHTML = `TIME: ${min} : ${sec}`;
+      timeLeft(quizTime);
     }
   }, 1000);
 };
