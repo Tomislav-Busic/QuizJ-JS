@@ -115,13 +115,13 @@ const animatonChoices = () => {
 
   button1.classList.add("box1");
   button2.classList.add("box2");
-  button3.classList.add("box1");
-  button4.classList.add("box2");
+  button3.classList.add("box3");
+  button4.classList.add("box4");
 
   buttons.addEventListener("animationend", () => {
     button1.classList.remove("box1");
     button2.classList.remove("box2");
-    button3.classList.remove("box1");
-    button4.classList.remove("box2");
+    button3.classList.remove("box3");
+    button4.classList.remove("box4");
   });
 };
