@@ -163,6 +163,8 @@ img {
   background-color: var(--color-primary);
 }
 
+/* TIME WARNING */
+
 @keyframes grow-and-shrink {
   0% {
     transform: scale(1);
@@ -179,4 +181,38 @@ img {
   animation: grow-and-shrink 4000ms;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+}
+
+/* SLIDE CHOICES */
+
+@keyframes slide-inleft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.box1 {
+  animation: slide-inleft 1000ms;
+  animation-iteration-count: 3;
+}
+
+@keyframes slide-inright {
+  from {
+    transform: translateX(100%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.box2 {
+  animation: slide-inright 1000ms;
+  animation-iteration-count: 3;
 }
