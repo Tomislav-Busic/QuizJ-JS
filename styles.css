@@ -192,34 +192,74 @@ img {
 
 /* SLIDE CHOICES */
 
-@keyframes slide-inleft {
+@keyframes slide-in1 {
   from {
     transform: translateX(-100%);
     opacity: 0.25;
+    background-color: var(--black);
   }
   to {
     transform: translateX(0%);
     opacity: 1;
+    background-color: #ddd;
   }
 }
 
 .box1 {
-  animation: slide-inleft 1000ms;
+  animation: slide-in1 500ms;
   animation-timing-function: ease-in-out;
 }
 
-@keyframes slide-inright {
+@keyframes slide-in2 {
   from {
     transform: translateX(100%);
     opacity: 0.25;
+    background-color: var(--black);
   }
   to {
     transform: translateX(0%);
     opacity: 1;
+    background-color: #ddd;
   }
 }
 
 .box2 {
-  animation: slide-inright 1000ms;
+  animation: slide-in2 800ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slide-in3 {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.25;
+    background-color: var(--black);
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+    background-color: #ddd;
+  }
+}
+
+.box3 {
+  animation: slide-in3 1200ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slide-in4 {
+  from {
+    transform: translateX(100%);
+    opacity: 0.25;
+    background-color: var(--black);
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+    background-color: #ddd;
+  }
+}
+
+.box2 {
+  animation: slide-in4 1500ms;
   animation-timing-function: ease-in-out;
 }
