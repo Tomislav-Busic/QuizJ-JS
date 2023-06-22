@@ -19,12 +19,24 @@ export const animatonChoices = () => {
 };
 
 export const questionAnimation = (string) => {
-  let text = string.split(" ");
-
-  for (let word in text) {
-    for (let i = 0; i < word.length; i++) {
-      word[i].classList.add("letter");
-    }
+  let text = document.getElementById("question");
+  let strText = string.split("");
+  let char = 0;
+  text.textContent = "";
+  for (let i = 0; i < strText.length; i++) {
+    text.innerHTML += "<span>" + strText[i] + "</span>";
   }
+
+  const onTick = () => {
+    const span = text.querySelectorAll("span")[char];
+
+    if (char === strText.length) {
+      clearInterval(timer);
+    } else {
+      char++;
+      span.classList.add("fade");
+    }
+  };
+  let timer = setInterval(onTick, 150);
   return string;
 };

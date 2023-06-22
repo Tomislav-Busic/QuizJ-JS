@@ -263,3 +263,7 @@ img {
   animation: slide-in4 1500ms;
   animation-fill-mode: backwards;
 }
+
+.letter {
+  opacity: 0;
+}
