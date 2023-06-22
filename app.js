@@ -74,7 +74,13 @@ const startCountDown = () => {
     let sec = Math.floor(quizTime % 60);
     let min = Math.floor(quizTime / 60) % 60;
 
-    return (counting.innerHTML = `TIME: ${min} : ${sec}`);
+    const formatTime = (time) => {
+      return time < 10 ? `0${time}` : time;
+    };
+
+    return (counting.innerHTML = `
+    TIME: ${formatTime(min)} : ${formatTime(sec)}
+    `);
   };
 
   let quizTimer = setInterval(() => {
