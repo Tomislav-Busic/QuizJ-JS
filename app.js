@@ -63,7 +63,7 @@ let quiz = new Quiz(questions());
 displayQuestion();
 
 // ADD COUNTDOWN
-let time = 1;
+let time = 10;
 let quizTimeInMinutes = time * 60 * 60;
 let quizTime = quizTimeInMinutes / 60;
 
@@ -74,6 +74,18 @@ const startCountDown = () => {
     if (quizTime <= 0) {
       clearInterval(quizTimer);
       showScores();
+    } else if (quizTime <= quizTimeInMinutes / 60 / 4) {
+      quizTime--;
+      let sec = Math.floor(quizTime % 60);
+      let min = Math.floor(quizTime / 60) % 60;
+      counting.innerHTML = `TIME: ${min} : ${sec}`;
+      counting.style.backgroundColor = "red";
+    } else if (quizTime <= quizTimeInMinutes / 60 / 2) {
+      quizTime--;
+      let sec = Math.floor(quizTime % 60);
+      let min = Math.floor(quizTime / 60) % 60;
+      counting.innerHTML = `TIME: ${min} : ${sec}`;
+      counting.style.backgroundColor = "orangered";
     } else {
       quizTime--;
       let sec = Math.floor(quizTime % 60);
@@ -83,15 +95,4 @@ const startCountDown = () => {
   }, 1000);
 };
 
-setInterval(() => {
-  if (quizTime <= quizTimeInMinutes / 60 / 2) {
-    counting.style.backgroundColor = "orangered";
-  }
-}, 1000);
-
-setInterval(() => {
-  if (quizTime <= quizTimeInMinutes / 60 / 4) {
-    counting.style.backgroundColor = "red";
-  }
-}, 1000);
 startCountDown();
