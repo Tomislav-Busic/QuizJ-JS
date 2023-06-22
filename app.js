@@ -80,6 +80,7 @@ const startCountDown = () => {
       let min = Math.floor(quizTime / 60) % 60;
       counting.innerHTML = `TIME: ${min} : ${sec}`;
       counting.style.backgroundColor = "red";
+      counting.classList.add("time-warning");
     } else if (quizTime <= quizTimeInMinutes / 60 / 2) {
       quizTime--;
       let sec = Math.floor(quizTime % 60);
