@@ -84,3 +84,13 @@ const startCountDown = () => {
 };
 
 startCountDown();
+
+let changeColor = setInterval(() => {
+  if (quizTime <= quizTimeInMinutes / 2) {
+    counting.style.backgroundColor = "green";
+  } else if (quizTime <= quizTimeInMinutes / 4) {
+    counting.style.backgroundColor = "red";
+  }
+}, 1000);
+
+changeColor;
