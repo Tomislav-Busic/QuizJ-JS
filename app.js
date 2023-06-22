@@ -86,7 +86,11 @@ const startCountDown = () => {
 setInterval(() => {
   if (quizTime <= quizTimeInMinutes / 60 / 2) {
     counting.style.backgroundColor = "orangered";
-  } else if (quizTime <= quizTimeInMinutes / 60 / 2 / 2) {
+  }
+}, 1000);
+
+setInterval(() => {
+  if (quizTime <= quizTimeInMinutes / 60 / 4) {
     counting.style.backgroundColor = "red";
   }
 }, 1000);
