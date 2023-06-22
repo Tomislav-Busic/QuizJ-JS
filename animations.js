@@ -27,7 +27,6 @@ export const questionAnimation = () => {
   splitText.forEach((element) => {
     text.innerHTML += "<span>" + element + "</span>";
   });
-
   const onTick = () => {
     const span = text.querySelectorAll("span")[char];
 
@@ -38,7 +37,5 @@ export const questionAnimation = () => {
       span.classList.add("fade");
     }
   };
-
-  let timer = setInterval(onTick, 150);
-  return string;
+  let timer = setInterval(onTick, 20);
 };

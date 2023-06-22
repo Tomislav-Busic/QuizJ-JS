@@ -273,6 +273,6 @@ img {
   transition: all 1s ease;
 }
 
-.fade {
+#question span.fade {
   opacity: 1;
 }
