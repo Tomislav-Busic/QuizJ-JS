@@ -18,25 +18,27 @@ export const animatonChoices = () => {
   });
 };
 
-export const questionAnimation = (string) => {
+export const questionAnimation = () => {
   let text = document.getElementById("question");
-  let strText = string.split("");
+  let textStr = text.textContent;
+  let splitText = textStr.split("");
   let char = 0;
   text.textContent = "";
-  for (let i = 0; i < strText.length; i++) {
-    text.innerHTML += "<span>" + strText[i] + "</span>";
-  }
+  splitText.forEach((element) => {
+    text.innerHTML += "<span>" + element + "</span>";
+  });
 
   const onTick = () => {
     const span = text.querySelectorAll("span")[char];
 
-    if (char === strText.length) {
+    if (char === splitText.length) {
       clearInterval(timer);
     } else {
       char++;
       span.classList.add("fade");
     }
   };
+
   let timer = setInterval(onTick, 150);
   return string;
 };

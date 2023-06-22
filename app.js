@@ -7,8 +7,8 @@ const displayQuestion = () => {
   } else {
     // show question
     let questionElement = document.getElementById("question");
-    questionElement.innerHTML = questionAnimation(quiz.getQuestionIndex().text);
-
+    questionElement.innerHTML = quiz.getQuestionIndex().text;
+    questionAnimation();
     // show options
     let choices = quiz.getQuestionIndex().choices;
     for (let i = 0; i < choices.length; i++) {

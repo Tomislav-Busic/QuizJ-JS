@@ -267,3 +267,12 @@ img {
 .letter {
   opacity: 0;
 }
+
+#question span {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.fade {
+  opacity: 1;
+}
