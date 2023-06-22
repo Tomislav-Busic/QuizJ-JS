@@ -175,7 +175,7 @@ img {
   }
 }
 
-.time {
+.time-warning {
   animation: grow-and-shrink 4000ms;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
