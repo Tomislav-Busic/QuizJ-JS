@@ -204,7 +204,7 @@ img {
 }
 
 .box1 {
-  animation: slide-inleft 9000ms;
+  animation: slide-inleft 1000ms;
   animation-timing-function: ease-in-out;
 }
 
