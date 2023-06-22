@@ -1,5 +1,5 @@
-// DISPLAY QUESTION
 import questionsData from "./questions.json" assert { type: "json" };
+import { animatonChoices } from "./animations.js";
 
 const displayQuestion = () => {
   if (quiz.isEnded()) {
