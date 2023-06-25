@@ -19,13 +19,17 @@ export const animatonChoices = () => {
 };
 
 export const questionAnimation = () => {
-  let text = document.getElementById("question").textContent;
+  let text = document.getElementById("question");
+  let textStr = text.textContent;
   let splitText = textStr.split("");
   let char = 0;
+
   text.textContent = "";
+
   splitText.forEach((element) => {
     text.innerHTML += "<span>" + element + "</span>";
   });
+
   const onTick = () => {
     const span = text.querySelectorAll("span")[char];
 
