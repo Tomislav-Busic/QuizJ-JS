@@ -7,7 +7,7 @@ const displayQuestion = () => {
     // show question
     let questionElement = document.getElementById("question");
     questionElement.innerHTML = quiz.getQuestionIndex().text;
-    questionAnimation();
+    quiz.questionAnimation();
     // show options
     let choices = quiz.getQuestionIndex().choices;
     for (let i = 0; i < choices.length; i++) {
@@ -24,6 +24,7 @@ const guess = (id, guess) => {
   let button = document.getElementById(id);
   button.onclick = () => {
     quiz.guess(guess);
+    displayQuestion();
   };
 };
 

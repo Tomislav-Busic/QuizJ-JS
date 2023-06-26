@@ -13,8 +13,8 @@ class Quiz {
     if (this.getQuestionIndex().isCorrectAnswer(answer)) {
       this.score++;
     }
-    animatonChoices();
-    displayQuestion();
+    this.animatonChoices();
+    this.questionAnimation();
     this.questionIndex++;
   }
 
@@ -22,7 +22,7 @@ class Quiz {
     return this.questionIndex === this.questions.length;
   }
 
-  questionAnimation = () => {
+  questionAnimation() {
     let text = document.getElementById("question");
     let textStr = text.textContent;
     let splitText = textStr.split("");
@@ -45,9 +45,9 @@ class Quiz {
       }
     };
     let timer = setInterval(onTick, 20);
-  };
+  }
 
-  animatonChoices = () => {
+  animatonChoices() {
     let buttons = document.getElementById("buttons");
     let button1 = document.getElementById("btn0");
     let button2 = document.getElementById("btn1");
@@ -65,5 +65,5 @@ class Quiz {
       button3.classList.remove("box3");
       button4.classList.remove("box4");
     });
-  };
+  }
 }
