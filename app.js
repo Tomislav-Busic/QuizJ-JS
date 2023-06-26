@@ -1,5 +1,4 @@
 import questionsData from "./questions.json" assert { type: "json" };
-import { animatonChoices, questionAnimation } from "./animations.js";
 
 const displayQuestion = () => {
   if (quiz.isEnded()) {
@@ -24,9 +23,7 @@ const displayQuestion = () => {
 const guess = (id, guess) => {
   let button = document.getElementById(id);
   button.onclick = () => {
-    animatonChoices();
     quiz.guess(guess);
-    displayQuestion();
   };
 };
 
