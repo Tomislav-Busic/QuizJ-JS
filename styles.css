@@ -272,7 +272,3 @@ img {
   opacity: 0;
   transition: all 1s ease;
 }
-
-#question span.fade {
-  opacity: 1;
-}

@@ -13,9 +13,10 @@ class Quiz {
     if (this.getQuestionIndex().isCorrectAnswer(answer)) {
       this.score++;
     }
+
+    this.questionIndex++;
     this.animatonChoices();
     this.questionAnimation();
-    this.questionIndex++;
   }
 
   isEnded() {
@@ -41,7 +42,7 @@ class Quiz {
         clearInterval(timer);
       } else {
         char++;
-        span.classList.add("fade");
+        span.style.opacity = 1;
       }
     };
     let timer = setInterval(onTick, 20);
