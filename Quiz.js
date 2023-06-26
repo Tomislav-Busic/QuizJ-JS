@@ -42,7 +42,7 @@ class Quiz {
         clearInterval(timer);
       } else {
         char++;
-        span.style.opacity = 1;
+        span.classList.add("fade");
       }
     };
     let timer = setInterval(onTick, 20);

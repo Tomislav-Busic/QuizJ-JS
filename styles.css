@@ -264,11 +264,11 @@ img {
   animation-fill-mode: backwards;
 }
 
-.letter {
-  opacity: 0;
-}
-
 #question span {
   opacity: 0;
   transition: all 1s ease;
+}
+
+#question span.fade {
+  opacity: 1;
 }
