@@ -23,6 +23,7 @@ class Quiz {
     return this.questionIndex === this.questions.length;
   }
 
+  // animation for question
   questionAnimation() {
     let text = document.getElementById("question");
     let textStr = text.textContent;
@@ -48,6 +49,7 @@ class Quiz {
     let timer = setInterval(onTick, 20);
   }
 
+  // animations for choices
   animatonChoices() {
     let buttons = document.getElementById("buttons");
     let button1 = document.getElementById("btn0");
