@@ -1,7 +1,7 @@
 import { showScores } from "./app.js";
 
 // ADD COUNTDOWN
-let time = 10;
+let time = 20;
 let quizTimeInMinutes = time * 60 * 60;
 let quizTime = quizTimeInMinutes / 60;
 
